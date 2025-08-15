@@ -1,13 +1,13 @@
 @echo off
 echo ==============================
-echo الرفع الأولي للمشروع على GitHub
+echo  uploading to GitHub
 echo ==============================
 git init
 git add .
-git commit -m "الرفع الأولي للمشروع"
+git commit -m " hospital system "
 git branch -M main
 git remote add origin https://github.com/johnksdfrehrt/team-project.git
 git push -u origin main
 echo.
-echo ✅ تم رفع المشروع بنجاح!
+echo ✅ succesfully uploaded project
 pause
